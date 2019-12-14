@@ -22,7 +22,7 @@ export default function CartItem({id, image, title, price, amount}) {
         <FaAngleUp />
       </button>
         <p className="item-amount">{amount}</p>
-      <button type="button" className="cart-btn amount-btn" onClick={()=>{decreaseAmount(id)}}>
+      <button type="button" className="cart-btn amount-btn" onClick={()=>{decreaseAmount(id,amount)}}>
         <FaAngleDown />
       </button>
     </div>

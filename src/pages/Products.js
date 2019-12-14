@@ -13,7 +13,7 @@ export default function Products() {
     }
     return (
         <div>            
-            <ProductList title="our products" products={products} />>
+            <ProductList title="our products" products={products} />
         </div>
     )
 }
